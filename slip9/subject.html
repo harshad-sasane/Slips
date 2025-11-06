@@ -1,0 +1,18 @@
+<script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const course = urlParams.get('course');
+  let subjects = {
+    "BCA": ["DBMS", "Java", "HTML"],
+    "BBA": ["Economics", "Marketing", "Accounts"],
+    "M.Com": ["Taxation", "Finance", "Business Law"]
+  };
+  
+  document.write("<h2>Subjects for " + course + ":</h2>");
+  if (subjects[course]) {
+    document.write("<ul>");
+    subjects[course].forEach(sub => document.write("<li>" + sub + "</li>"));
+    document.write("</ul>");
+  } else {
+    document.write("No subjects available.");
+  }
+</script>
