@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Company Information & logo</title>
+  <script>
+    function showInfo(company) {
+      var info = {
+        "TCS": "TCS (Tata Consultancy Services) is an Indian multinational IT services and consulting company.",
+        "Wipro": "Wipro Limited is a leading global IT, consulting, and business process services company.",
+        "Infosys": "Infosys is a global leader in next-generation digital services and consulting.",
+        "LNT": "Larsen & Toubro (LNT) is a major technology, engineering, and construction company."
+      };
+      document.getElementById("desc").innerText = info[company];
+    }
+  </script>
+</head>
+<body>
+  <h2>Company Information & logo</h2>
+  <table border="1">
+    <tr>
+      <th>List Of Company</th>
+      <th>Course Description</th>
+    </tr>
+    <tr>
+      <td>
+        <a href="#" onclick="showInfo('TCS')">1) TCS</a><br>
+        <a href="#" onclick="showInfo('Wipro')">2) Wipro</a><br>
+        <a href="#" onclick="showInfo('Infosys')">3) Infosys</a><br>
+        <a href="#" onclick="showInfo('LNT')">4) LNT</a>
+      </td>
+      <td id="desc">Display Company information when you select that company</td>
+    </tr>
+  </table>
+</body>
+</html>
