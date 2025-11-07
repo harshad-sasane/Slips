@@ -1,61 +1,71 @@
 .head {
-color: navy;
-font-size: 20px;
-font-family: Arial;
+  color: navy;
+  font-size: 20px;
+  font-family: Arial;
 }
+
 .fern {
-color: brown;
-font-size: 16px;
-font-family: Georgia;
+  color: brown;
+  font-size: 16px;
+  font-family: Georgia;
 }
+
 .spore {
-color: green;
-font-size: 15px;
-font-family: Verdana;
+  color: green;
+  font-size: 15px;
+  font-family: Verdana;
 }
+
 .lilly {
-color: purple;
-font-size: 17px;
-font-family: cursive;
+  color: purple;
+  font-size: 17px;
+  font-family: cursive;
 }
+
 .rose {
-color: maroon;
-font-size: 18px;
-font-family: serif;
+  color: maroon;
+  font-size: 18px;
+  font-family: serif;
 }
+
 .red {
-color: red;
-font-size: 14px;
-font-family: Arial;
+  color: red;
+  font-size: 14px;
+  font-family: Arial;
 }
+
 .pink {
-color: pink;
-font-size: 14px;
-font-family: Times;
+  color: pink;
+  font-size: 14px;
+  font-family: Times;
 }
+
 .apple {
-color: red;
-font-size: 16px;
-font-family: sans-serif;
+  color: red;
+  font-size: 16px;
+  font-family: sans-serif;
 }
+
 .dragon {
-color: magenta;
-font-size: 15px;
-font-family: Courier;
+  color: magenta;
+  font-size: 15px;
+  font-family: Courier;
 }
+
 .orange {
-color: orange;
-font-size: 16px;
-font-family: 'Comic Sans MS';
+  color: orange;
+  font-size: 16px;
+  font-family: 'Comic Sans MS';
 }
 
 table, th, td {
-border: 1px solid black;
-}
-th {
-background: lightgreen;
-}
-caption {
-font-weight: bold;
+  border: 1px solid black;
 }
 
+th {
+  background: lightgreen;
+}
+
+caption {
+  font-weight: bold;
+}
