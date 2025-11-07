@@ -1,9 +1,10 @@
 <script>
-  let n = prompt("Enter a number for factorial:");
-  n = Number(n);
+  let n = Number(prompt("Enter a number:"));
   let fact = 1;
+  
   for (let i = 1; i <= n; i++) {
     fact *= i;
   }
-  document.write("<h3>Factorial of " + n + " is: " + fact + "</h3>");
+  
+  document.write(`<h3>Factorial of ${n} is: ${fact}</h3>`);
 </script>
