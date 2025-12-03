@@ -1,10 +1,18 @@
+<html>
+<body>
+
 <script>
-  let n = Number(prompt("Enter a number:"));
-  let fact = 1;
-  
-  for (let i = 1; i <= n; i++) {
-    fact *= i;
+  var n = prompt("Enter a number:");
+  var ans = 1;
+  var i = 1;
+
+  while (i <= n) {
+    ans = ans*i;
+    i++;
   }
-  
-  document.write(`<h3>Factorial of ${n} is: ${fact}</h3>`);
+
+  document.write("Factorial = " + ans);
 </script>
+
+</body>
+</html>
