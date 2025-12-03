@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
     <title>Bus Ticket Reservation</title>
+=======
+  <title>Bus Ticket Reservation</title>
+  <style>
+    body {
+      font-family: Arial;
+    }
+    .container {
+      width: 400px;
+      margin: auto;
+      border: 1px solid black;
+      padding: 15px;
+    }
+    .row {
+      margin-bottom: 10px;
+    }
+    label {
+      display: inline-block;
+      width: 150px;
+    }
+  </style>
+>>>>>>> a9190c6 (Update slip12 and add slip14)
 </head>
 <body>
 
+<<<<<<< HEAD
 <h3 align="center">Bus Ticket Reservation Form</h3>
 
 <form align="center">
@@ -49,3 +72,83 @@
 
 </body>
 </html>
+=======
+<h2 align="center">Bus Ticket Reservation Form</h2>
+
+<div class="container">
+<form>
+
+  <div class="row">
+    <label>Name:</label>
+    <input type="text" required>
+  </div>
+
+  <div class="row">
+    <label>Address:</label>
+    <textarea rows="3" required></textarea>
+  </div>
+
+  <div class="row">
+    <label>Contact No:</label>
+    <input type="tel" maxlength="10" required>
+  </div>
+
+  <div class="row">
+    <label>Source Station:</label>
+    <select required>
+      <option>Select</option>
+      <option>Mumbai</option>
+      <option>Pune</option>
+      <option>Nashik</option>
+      <option>Nagpur</option>
+    </select>
+  </div>
+
+  <div class="row">
+    <label>Destination Station:</label>
+    <select required>
+      <option>Select</option>
+      <option>Mumbai</option>
+      <option>Pune</option>
+      <option>Nashik</option>
+      <option>Nagpur</option>
+    </select>
+  </div>
+
+  <div class="row">
+    <label>Date of Booking:</label>
+    <input type="date" required>
+  </div>
+
+  <div class="row">
+    <label>Date of Journey:</label>
+    <input type="date" required>
+  </div>
+
+  <div class="row">
+    <label>No. of Passengers:</label>
+    <input type="number" min="1" required>
+  </div>
+
+  <div class="row">
+    <label>Passenger Name:</label>
+    <input type="text" required>
+  </div>
+
+  <div class="row">
+    <label>Gender:</label>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+  </div>
+
+  <div class="row" align="center">
+    <input type="submit">
+    <input type="reset">
+  </div>
+
+</form>
+</div>
+
+</body>
+</html>
+>>>>>>> a9190c6 (Update slip12 and add slip14)
