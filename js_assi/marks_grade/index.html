@@ -1,18 +1,30 @@
 <html>
 <body>
-<script>
-  var per = prompt("Enter your percentage for grading:");
 
-  if (per >= 90)
-    document.write("You got A grade");
-  else if (per >= 80)
-    document.write("You got B grade");
-  else if (per >= 70)
-    document.write("You got C grade");
+<script>
+  var m1 = Number(prompt("Enter marks of Subject 1:"));
+  var m2 = Number(prompt("Enter marks of Subject 2:"));
+  var m3 = Number(prompt("Enter marks of Subject 3:"));
+  var m4 = Number(prompt("Enter marks of Subject 4:"));
+  var m5 = Number(prompt("Enter marks of Subject 5:"));
+
+  var total = m1 + m2 + m3 + m4 + m5;
+  var per = total / 5;
+
+  document.write("Total = " + total + "<br>");
+  document.write("Percentage = " + per + "<br>");
+
+  if (per >= 75)
+    document.write("Result: Distinction");
   else if (per >= 60)
-    document.write("You got D grade");
+    document.write("Result: First Class");
+  else if (per >= 50)
+    document.write("Result: Second Class");
+  else if (per >= 40)
+    document.write("Result: Pass");
   else
-    document.write("You got F grade");
+    document.write("Result: Fail");
 </script>
+
 </body>
 </html>
