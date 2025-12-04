@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
   <title>Country Population</title>
@@ -7,68 +6,39 @@
       border: 1px solid black;
       border-collapse: collapse;
       text-align: center;
+      padding: 5px;
     }
     table {
-      width: 60%;
       margin: auto;
+      width: 60%;
     }
     th {
       background: lightgreen;
-    }
-    caption {
-      font-weight: bold;
-      font-size: 18px;
-      margin: 5px;
     }
   </style>
 </head>
 <body>
 
-  <table>
-    <caption>Country Population (In Crores)</caption>
-    <tr>
-      <th>Country</th>
-      <th colspan="2">Population</th>
-    </tr>
-    <tr>
-      <td rowspan="3">India</td>
-      <td>2021</td>
-      <td>100</td>
-    </tr>
-    <tr>
-      <td>2022</td>
-      <td>120</td>
-    </tr>
-    <tr>
-      <td>2023</td>
-      <td>150</td>
-    </tr>
-    <tr>
-      <td rowspan="3">US</td>
-      <td>2021</td>
-      <td>39</td>
-    </tr>
-    <tr>
-      <td>2022</td>
-      <td>45</td>
-    </tr>
-    <tr>
-      <td>2023</td>
-      <td>35</td>
-    </tr>
-    <tr>
-      <td rowspan="3">UK</td>
-      <td>2021</td>
-      <td>49</td>
-    </tr>
-    <tr>
-      <td>2022</td>
-      <td>40</td>
-    </tr>
-    <tr>
-      <td>2023</td>
-      <td>36</td>
-    </tr>
-  </table>
+<table>
+  <caption><b>Country Population (In Crores)</b></caption>
+  <tr>
+    <th>Country</th>
+    <th>Year</th>
+    <th>Population</th>
+  </tr>
+
+  <tr><td rowspan="3">India</td><td>2021</td><td>100</td></tr>
+  <tr><td>2022</td><td>120</td></tr>
+  <tr><td>2023</td><td>150</td></tr>
+
+  <tr><td rowspan="3">US</td><td>2021</td><td>39</td></tr>
+  <tr><td>2022</td><td>45</td></tr>
+  <tr><td>2023</td><td>35</td></tr>
+
+  <tr><td rowspan="3">UK</td><td>2021</td><td>49</td></tr>
+  <tr><td>2022</td><td>40</td></tr>
+  <tr><td>2023</td><td>36</td></tr>
+</table>
+
 </body>
 </html>
