@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Information Form</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+        .form-box {
+            width: 400px;
+            margin: auto;
+        }
+        .row {
+            margin-bottom: 10px;
+        }
+        label {
+            display: inline-block;
+            width: 130px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2 align="center">Employee Information Form</h2>
+
+<div class="form-box">
+<form>
+
+    <div class="row">
+        <label>Name:</label>
+        <input type="text" name="name" required>
+    </div>
+
+    <div class="row">
+        <label>Address:</label>
+        <textarea name="address" required></textarea>
+    </div>
+
+    <div class="row">
+        <label>Contact No:</label>
+        <input type="tel" name="contact" maxlength="10" required>
+    </div>
+
+    <div class="row">
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female"> Female
+    </div>
+
+    <div class="row">
+        <label>Department:</label>
+        <select name="department" required>
+            <option value="" disabled selected>Select</option>
+            <option>HR Department</option>
+            <option>UI/UX</option>
+            <option>Development Team</option>
+        </select>
+    </div>
+
+    <div class="row">
+        <label>Job Location:</label>
+        <select name="location" required>
+            <option value="" disabled selected>Select</option>
+            <option>Delhi</option>
+            <option>Mumbai</option>
+            <option>Bangalore</option>
+        </select>
+    </div>
+
+    <div class="row" align="center">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </div>
+
+</form>
+</div>
+
+</body>
+</html>
