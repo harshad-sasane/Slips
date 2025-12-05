@@ -3,19 +3,6 @@
 This repository is my **personal, exam-oriented storage** for all **BCA (Sem-1) HTML & Web Designing practical slips**.
 
 It is structured for **fast revision, clean backup, and easy rewriting in the practical exam**.
-
----
-
-## Coding Style (Exam-Oriented)
-
-- Short, compact code for easy writing on paper  
-- `<marquee>` and `<font>` used because slips explicitly require them  
-- `<head>` sometimes omitted as per teacher’s instruction  
-- Focus is on correct output as per slip, not modern standards  
-- Priority order: **Exam Output > Validation > Best Practices**
-
----
-
 ## JavaScript Policy
 
 - General JS practice kept in `js_assi/`
@@ -94,3 +81,4 @@ This repo is optimized for:
 - Clean backup  
 
 It is a **student workspace**, not a production-ready web project.
+
