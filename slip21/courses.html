@@ -1,12 +1,63 @@
 <html>
-<body>
-  <h3>List of Courses</h3>
+<head>
+<title>College Courses</title>
 
-  <ul>
-    <li><a href="bca.html" target="rightframe">BCA</a></li>
-    <li><a href="bba.html" target="rightframe">BBA</a></li>
-    <li><a href="bcs.html" target="rightframe">BCS</a></li>
-    <li><a href="bsc.html" target="rightframe">BSC</a></li>
-  </ul>
+<style>
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+}
+table { width: 70%; margin: auto; }
+.title { text-align: center; font-weight: bold; }
+
+.desc div { display: none; }
+.desc div:target { display: block; }
+</style>
+
+</head>
+<body>
+
+<table>
+  <tr>
+    <td colspan="2" class="title">College Name</td>
+  </tr>
+
+  <tr>
+    <td width="40%">
+      <h5 align="center">list of courses</h5>
+      <a href="#bca">1) BCA</a><br>
+      <a href="#bba">2) BBA</a><br>
+      <a href="#bcs">3) BCS</a><br>
+      <a href="#bsc">4) BSC</a>
+    </td>
+
+    <td class="desc" width="60%">
+     <h5>Course Description</h5>
+Display course information when you select a course.<br><br>
+
+<div id="bca">
+  <b>BCA:</b> Focus on programming, databases, and software development.
+</div>
+
+<div id="bba">
+  <b>BBA:</b> Covers management, marketing, finance, and business skills.
+</div>
+
+<div id="bcs">
+  <b>BCS:</b> Emphasis on algorithms, data structures, and computer science.
+</div>
+
+<div id="bsc">
+  <b>BSC:</b> General science course with physics, chemistry, and mathematics.
+</div>
+
+<div id="default">
+  Select a course to view details.
+</div>
+    </td>
+  </tr>
+</table>
+
 </body>
 </html>
