@@ -20,45 +20,44 @@ It is structured for **fast revision, clean backup, and easy rewriting in the pr
 
 ## HTML Practical Slips
 
-Legend:  
 ✅ = completed | ⏳ = pending
 
-- ✅ [Slip 01](./slip01) – College intro page  
-- ✅ [Slip 02](./slip02) – Personal profile  
-- ✅ [Slip 03](./slip03) – Course lists + square/cube  
-- ✅ [Slip 04](./slip04) – Plants & fruits (external CSS)  
-- ✅ [Slip 05](./slip05) – Country–population + sum of 10 numbers  
-- ✅ [Slip 06](./slip06) – Company selector  
-- ✅ [Slip 07](./slip07) – Multi-frame layout  
-- ✅ [Slip 08](./slip08) – Book inventory + factors  
-- ✅ [Slip 09](./slip09) – Course navigation + factorial  
-- ✅ [Slip 10](./slip10) – Country–population + primes  
-- ✅ [Slip 11](./slip11) – Student intake + pattern  
-- ✅ [Slip 12](./slip12) – Bus ticket reservation  
+- ✅ [Slip 01](./slip01) – College Web Page (background image, courses in table, marquee, image)  
+- ✅ [Slip 02](./slip02) – Personal Profile Page with Family Members (Internal CSS)  
+- ✅ [Slip 03](./slip03) – College & Course List (Inline CSS) + Square & Cube (JS)  
+- ✅ [Slip 04](./slip04) – Plants & Fruits List (External CSS) + Fruits Table  
+- ✅ [Slip 05](./slip05) – Country–Population Table + Sum of First 10 Numbers  
+- ✅ [Slip 06](./slip06) – Company Information Selector (TCS, Wipro, Infosys, L&T)  
+- ✅ [Slip 07](./slip07) – Six-Frame Layout (Name, Colors, Cities, Marquee, Blinking, Countries)  
+- ✅ [Slip 08](./slip08) – Book Price Table + Factors of a Number  
+- ✅ [Slip 09](./slip09) – Three-Frame Course Navigation + Factorial  
+- ✅ [Slip 10](./slip10) – Country–Population Table + Prime Numbers (1–20)  
+- ✅ [Slip 11](./slip11) – Student Intake Table + Number Pattern  
+- ✅ [Slip 12](./slip12) – Bus Ticket Reservation Form  
 
-- ⏳ Slip 13
+- ⏳ Slip 13 – String Length + Sum of Digits  
 
-- ✅ [Slip 14](./slip14) – Travel plan booking form  
-- ✅ [Slip 15](./slip15) – Employee form + cube  
-- ✅ [Slip 16](./slip16) – Employee form + cube  
-- ✅ [Slip 17](./slip17) – Item form + area of circle  
-- ✅ [Slip 18](./slip18) – Full college website  
+- ✅ [Slip 14](./slip14) – Travel Plan Booking Form + Xʸ  
+- ✅ [Slip 15](./slip15) – Employee Information Form + Cube  
+- ✅ [Slip 16](./slip16) – Employee Information Form + Cube  
+- ✅ [Slip 17](./slip17) – Item Information Form + Area of Circle  
+- ✅ [Slip 18](./slip18) – Full College Website  
 
-- ⏳ Slip 19 – Company website  
-- ⏳ Slip 20 – Online shopping website  
+- ⏳ Slip 19 – Company Website  
+- ⏳ Slip 20 – Online Shopping Website  
 
-- ✅ [Slip 21](./slip21) – Course list with course information (non-frames version)  
+- ✅ [Slip 21](./slip21) – Course List with Dynamic Course Information  
 
-- ⏳ Slip 22  
-- ⏳ Slip 23  
-- ⏳ Slip 24  
-- ⏳ Slip 25  
-- ⏳ Slip 26  
-- ⏳ Slip 27  
-- ⏳ Slip 28  
-- ⏳ Slip 29  
-- ⏳ Slip 30  
-- ⏳ Slip 31  
+- ⏳ Slip 22 – Item Table + Star Pattern  
+- ⏳ Slip 23 – String Concatenation + Number Table  
+- ⏳ Slip 24 – Ordered List (BCA & BBA Subjects) + Factorial  
+- ⏳ Slip 25 – Three Horizontal Frames (Images) + Factors  
+- ⏳ Slip 26 – Three Vertical Frames (Lists) + Odd/Even  
+- ⏳ Slip 27 – Employee Department Table + Prime Check  
+- ⏳ Slip 28 – Head Count Table + Armstrong Number  
+- ⏳ Slip 29 – Male/Female Department Table + Prime Check  
+- ⏳ Slip 30 – Employee Salary Table + Divisible by 5  
+- ⏳ Slip 31 – College Information Page + Multiplication Table  
 
 ---
 
