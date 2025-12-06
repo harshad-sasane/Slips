@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Blinking Reminders</title>
-    <style>
-        .blink {
-            animation: blink 1s steps(2, start) infinite;
-        }
-        @keyframes blink {
-            from, to { visibility: hidden; }
-            50% { visibility: visible; }
-        }
-    </style>
-</head>
-<body>
-    <span class="blink">Reminder: Submit your journal!</span>
-</body>
-</html>
+<style>
+h2 { animation: blink 1s infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+</style>
+
+<h2>Blinking Text</h2>
