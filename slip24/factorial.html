@@ -1,0 +1,11 @@
+<script>
+  function fact(n) {
+    var f = 1;
+    for (var i = 1; i <= n; i++)
+      f = f * i;
+    return f;
+  }
+
+  var num = prompt("Enter a number:");
+  document.write("Factorial of " + num + " = " + fact(Number(num)));
+</script>
