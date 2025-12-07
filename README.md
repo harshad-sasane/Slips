@@ -4,9 +4,30 @@ This repository is my **personal, exam-oriented storage** for all **BCA (Sem-1) 
 
 It is structured for **fast revision, clean backup, and easy rewriting in the practical exam**.
 
+---
+
+## Coding Style (Exam-Oriented)
+
+- Short, compact code for easy writing on paper  
+- `<marquee>` and `<font>` used because slips explicitly require them  
+- `<head>` sometimes omitted as per teacher’s instruction  
+- Focus is on correct output as per slip, not modern standards  
+- Priority order: **Exam Output > Validation > Best Practices**
+
+---
+
+## JavaScript Policy
+
+- General JS practice kept in `js_assi/`
+- Slip-wise JS added only after it is taught in class
+- Until then, HTML-only solutions are treated as valid
+
+---
+
 ## Quick Index
 
 ### JavaScript Assignments
+
 - [js_assi](./js_assi)
   - [age_checker](./js_assi/age_checker/index.html)
   - [alphabet_display](./js_assi/alphabet_display/index.html)
@@ -18,57 +39,59 @@ It is structured for **fast revision, clean backup, and easy rewriting in the pr
 
 ---
 
-## HTML Practical Slips
+## HTML Practical Slips (Simple Index)
 
-✅ = completed | ⏳ = pending
+✅ = present | ⏳ = pending
 
-- ✅ [Slip 01](./slip01) – College Web Page (background image, courses in table, marquee, image)  
-- ✅ [Slip 02](./slip02) – Personal Profile Page with Family Members (Internal CSS)  
-- ✅ [Slip 03](./slip03) – College & Course List (Inline CSS) + Square & Cube (JS)  
-- ✅ [Slip 04](./slip04) – Plants & Fruits List (External CSS) + Fruits Table  
-- ✅ [Slip 05](./slip05) – Country–Population Table + Sum of First 10 Numbers  
-- ✅ [Slip 06](./slip06) – Company Information Selector (TCS, Wipro, Infosys, L&T)  
-- ✅ [Slip 07](./slip07) – Six-Frame Layout (Name, Colors, Cities, Marquee, Blinking, Countries)  
-- ✅ [Slip 08](./slip08) – Book Price Table + Factors of a Number  
-- ✅ [Slip 09](./slip09) – Three-Frame Course Navigation + Factorial  
-- ✅ [Slip 10](./slip10) – Country–Population Table + Prime Numbers (1–20)  
-- ✅ [Slip 11](./slip11) – Student Intake Table + Number Pattern  
-- ✅ [Slip 12](./slip12) – Bus Ticket Reservation Form  
+- ✅ [Slip 01](./slip01)
+- ✅ [Slip 02](./slip02)
+- ✅ [Slip 03](./slip03)
+- ✅ [Slip 04](./slip04)
+- ✅ [Slip 05](./slip05)
+- ✅ [Slip 06](./slip06)
+- ✅ [Slip 07](./slip07)
+- ✅ [Slip 08](./slip08)
+- ✅ [Slip 09](./slip09)
+- ✅ [Slip 10](./slip10)
+- ✅ [Slip 11](./slip11)
+- ✅ [Slip 12](./slip12)
+- ⏳ Slip 13
+- ✅ [Slip 14](./slip14)
+- ✅ [Slip 15](./slip15)
+- ✅ [Slip 16](./slip16)
+- ✅ [Slip 17](./slip17)
+- ✅ [Slip 18](./slip18)
+- ⏳ Slip 19
+- ⏳ Slip 20
+- ✅ [Slip 21](./slip21)
+- ✅ [Slip 22](./slip22)
+- ✅ [Slip 23](./slip23)
+- ✅ [Slip 24](./slip24)
+- ✅ [Slip 25](./slip25)
+- ✅ [Slip 26](./slip26)
+- ⏳ Slip 27
+- ⏳ Slip 28
+- ⏳ Slip 29
+- ⏳ Slip 30
+- ⏳ Slip 31
 
-- ⏳ Slip 13 – String Length + Sum of Digits  
+---
 
-- ✅ [Slip 14](./slip14) – Travel Plan Booking Form + Xʸ  
-- ✅ [Slip 15](./slip15) – Employee Information Form + Cube  
-- ✅ [Slip 16](./slip16) – Employee Information Form + Cube  
-- ✅ [Slip 17](./slip17) – Item Information Form + Area of Circle  
-- ✅ [Slip 18](./slip18) – Full College Website  
+## Current Status
 
-- ⏳ Slip 19 – Company Website  
-- ⏳ Slip 20 – Online Shopping Website  
-
-- ✅ [Slip 21](./slip21) – Course List with Dynamic Course Information  
-
-- ⏳ Slip 22 – Item Table + Star Pattern  
-- ⏳ Slip 23 – String Concatenation + Number Table  
-- ⏳ Slip 24 – Ordered List (BCA & BBA Subjects) + Factorial  
-- ⏳ Slip 25 – Three Horizontal Frames (Images) + Factors  
-- ⏳ Slip 26 – Three Vertical Frames (Lists) + Odd/Even  
-- ⏳ Slip 27 – Employee Department Table + Prime Check  
-- ⏳ Slip 28 – Head Count Table + Armstrong Number  
-- ⏳ Slip 29 – Male/Female Department Table + Prime Check  
-- ⏳ Slip 30 – Employee Salary Table + Divisible by 5  
-- ⏳ Slip 31 – College Information Page + Multiplication Table  
+- ✅ **24 slips completed**
+- ⏳ **7 slips remaining**
+- ✅ JS practice separated properly
+- ✅ Full website (Slip 18) already added
+- ✅ Frames, forms, tables, lists, and JS basics covered
 
 ---
 
 ## Note
 
 This repo is optimized for:
-
 - Practical exam performance  
 - Fast revision  
 - Clean backup  
 
 It is a **student workspace**, not a production-ready web project.
-
-
