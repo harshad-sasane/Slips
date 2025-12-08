@@ -1,0 +1,12 @@
+<script>
+  var a = Number(prompt("Enter a number"));
+  var isPrime = a > 1;
+  
+  for (var i = 2; i * i <= a; i++)
+    if (a % i == 0) isPrime = false;
+  
+  if (isPrime)
+    document.write("prime");
+  else
+    document.write("not prime");
+</script>

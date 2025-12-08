@@ -1,12 +1,11 @@
 <script>
-  document.write("Prime numbers from 1 to 20:<br>");
-  
   for (var n = 2; n <= 20; n++) {
     var prime = true;
     
-    for (var i = 2; i < n; i++)
+    for (var i = 2; i * i <= n; i++)
       if (n % i == 0) prime = false;
     
-    if (prime) document.write(n + "<br>");
+    if (prime)
+      document.write(n + "<br>");
   }
 </script>
