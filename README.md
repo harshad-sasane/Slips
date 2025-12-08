@@ -41,39 +41,37 @@ It is structured for **fast revision, clean backup, and easy rewriting in the pr
 
 ## HTML Practical Slips (Simple Index)
 
-✅ = present | ⏳ = pending
-
-- ✅ [Slip 01](./slip01)
-- ✅ [Slip 02](./slip02)
-- ✅ [Slip 03](./slip03)
-- ✅ [Slip 04](./slip04)
-- ✅ [Slip 05](./slip05)
-- ✅ [Slip 06](./slip06)
-- ✅ [Slip 07](./slip07)
-- ✅ [Slip 08](./slip08)
-- ✅ [Slip 09](./slip09)
-- ✅ [Slip 10](./slip10)
-- ✅ [Slip 11](./slip11)
-- ✅ [Slip 12](./slip12)
-- ⏳ Slip 13
-- ✅ [Slip 14](./slip14)
-- ✅ [Slip 15](./slip15)
-- ✅ [Slip 16](./slip16)
-- ✅ [Slip 17](./slip17)
-- ✅ [Slip 18](./slip18)
-- ⏳ Slip 19
-- ⏳ Slip 20
-- ✅ [Slip 21](./slip21)
-- ✅ [Slip 22](./slip22)
-- ✅ [Slip 23](./slip23)
-- ✅ [Slip 24](./slip24)
-- ✅ [Slip 25](./slip25)
-- ✅ [Slip 26](./slip26)
-- ⏳ Slip 27
-- ⏳ Slip 28
-- ⏳ Slip 29
-- ⏳ Slip 30
-- ⏳ Slip 31
+- ✅ [Slip 01](./slip01) – College Web Page
+- ✅ [Slip 02](./slip02) – Personal Profile Page
+- ✅ [Slip 03](./slip03) – Course List + Square & Cube
+- ✅ [Slip 04](./slip04) – Plants & Fruits (External CSS)
+- ✅ [Slip 05](./slip05) – Country–Population + Sum of 10 Numbers
+- ✅ [Slip 06](./slip06) – Company Information Selector
+- ✅ [Slip 07](./slip07) – Six-Frame Layout (Info, Lists, Marquee, Blink)
+- ✅ [Slip 08](./slip08) – Book Table + Factors
+- ✅ [Slip 09](./slip09) – Course Navigation Frames + Factorial
+- ✅ [Slip 10](./slip10) – Population Table + Prime Numbers
+- ✅ [Slip 11](./slip11) – Student Intake Table + Pattern
+- ✅ [Slip 12](./slip12) – Bus Ticket Reservation Form
+- ⏳ Slip 13 – String Length + Sum of Digits
+- ✅ [Slip 14](./slip14) – Travel Plan Booking Form
+- ✅ [Slip 15](./slip15) – Employee Form + Cube
+- ✅ [Slip 16](./slip16) – Employee Form + Cube
+- ✅ [Slip 17](./slip17) – Item Form + Area of Circle
+- ✅ [Slip 18](./slip18) – College Website (Full Website)
+- ⏳ Slip 19 – Company Website
+- ⏳ Slip 20 – Online Shopping Website
+- ✅ [Slip 21](./slip21) – Course List with Course Information
+- ✅ [Slip 22](./slip22) – Items Table + Pattern
+- ✅ [Slip 23](./slip23) – String Addition + Number Table
+- ✅ [Slip 24](./slip24) – Subject Sub-List + Factorial
+- ✅ [Slip 25](./slip25) – Three Image Frames
+- ✅ [Slip 26](./slip26) – Three List Frames + Even/Odd
+- ⏳ Slip 27 – Employee Department + Prime Check
+- ⏳ Slip 28 – Head Count Table + Armstrong Number
+- ⏳ Slip 29 – Department Gender Table + Prime
+- ⏳ Slip 30 – Employee Salary Table + Divisible by 5
+- ⏳ Slip 31 – College Info Page + Multiplication Table
 
 ---
 
@@ -82,7 +80,7 @@ It is structured for **fast revision, clean backup, and easy rewriting in the pr
 - ✅ **24 slips completed**
 - ⏳ **7 slips remaining**
 - ✅ JS practice separated properly
-- ✅ Full website (Slip 18) already added
+- ✅ Full website project completed (Slip 18)
 - ✅ Frames, forms, tables, lists, and JS basics covered
 
 ---
