@@ -1,12 +1,21 @@
 <script>
+
   var a = Number(prompt("Enter a number"));
+  
+  // Assume the number is prime if it is greater than 1
   var isPrime = a > 1;
   
-  for (var i = 2; i * i <= a; i++)
-    if (a % i == 0) isPrime = false;
+  // Check divisibility from 2 up to √a
+  for (var i = 2; i < a; i++) {
+    if (a % i == 0) {
+      isPrime = false; // Divisor found → not prime
+    }
+  }
   
-  if (isPrime)
+  // Final result
+  if (isPrime) {
     document.write("prime");
-  else
+  } else {
     document.write("not prime");
+  }
 </script>
