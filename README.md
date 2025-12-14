@@ -67,18 +67,18 @@ It is structured for **fast revision, clean backup, and easy rewriting in the pr
 - ✅ [Slip 24](./slip24) – Subject Sub-List + Factorial
 - ✅ [Slip 25](./slip25) – Three Image Frames
 - ✅ [Slip 26](./slip26) – Three List Frames + Even/Odd
-- ⏳ Slip 27 – Employee Department + Prime Check
-- ⏳ Slip 28 – Head Count Table + Armstrong Number
-- ⏳ Slip 29 – Department Gender Table + Prime
-- ⏳ Slip 30 – Employee Salary Table + Divisible by 5
-- ⏳ Slip 31 – College Info Page + Multiplication Table
+- ✅ [Slip 27](./slip27) – Employee Department + Prime Check
+- ✅ [Slip 28](./slip28) – Head Count Table + Armstrong Number
+- ✅ [Slip 29](./slip29) – Department Gender Table + Prime
+- ✅ [Slip 30](./slip30) – Employee Salary Table + Divisible by 5
+- ✅ [Slip 31](./slip31) – College Info Page + Multiplication Table
 
 ---
 
 ## Current Status
 
-- ✅ **24 slips completed**
-- ⏳ **7 slips remaining**
+- ✅ **28 slips completed**
+- ⏳ **3 slips remaining (13, 19, 20)**
 - ✅ JS practice separated properly
 - ✅ Full website project completed (Slip 18)
 - ✅ Frames, forms, tables, lists, and JS basics covered
