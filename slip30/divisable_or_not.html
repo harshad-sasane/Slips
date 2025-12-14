@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Prime Number</title>
+</head>
+<body>
+
+<script>
+    var n = Number(prompt("Enter a number:"));
+    var isPrime = n > 1;
+
+    for (var i = 2; i * i <= n; i++) {
+        if (n % i === 0) {
+            isPrime = false;
+        }
+    }
+
+    if (isPrime) {
+        document.write("Number is prime");
+    } else {
+        document.write("Number is not prime");
+    }
+</script>
+
+</body>
+</html>
