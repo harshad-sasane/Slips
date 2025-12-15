@@ -53,7 +53,7 @@ It is structured for **fast revision, clean backup, and easy rewriting in the pr
 - ✅ [Slip 10](./slip10) – Population Table + Prime Numbers
 - ✅ [Slip 11](./slip11) – Student Intake Table + Pattern
 - ✅ [Slip 12](./slip12) – Bus Ticket Reservation Form
-- ⏳ Slip 13 – String Length + Sum of Digits
+- ✅ [Slip 13](./slip13) – String Length + Sum of Digits
 - ✅ [Slip 14](./slip14) – Travel Plan Booking Form
 - ✅ [Slip 15](./slip15) – Employee Form + Cube
 - ✅ [Slip 16](./slip16) – Employee Form + Cube
