@@ -1,0 +1,13 @@
+<script>
+  function sumDigits(n) {
+    var sum = 0;
+    while (n > 0) {
+      sum = sum + (n % 10);
+      n = Number(n / 10);
+    }
+    document.write("Sum of digits = " + sum);
+  }
+  
+  var num = Number(prompt("Enter a number:"));
+  sumDigits(num);
+</script>
