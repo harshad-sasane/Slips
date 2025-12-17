@@ -2,30 +2,46 @@
 <html>
 <head>
     <title>Travel Plan Form</title>
-</head>
-<body align="center">
 
-<h3>Travel Plan Form</h3>
+    <style>
+        label {
+            display: inline-block;
+            width: 120px;
+        }
+        form {
+            width: 350px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+<h3 align="center">Travel Plan Form</h3>
 
 <form>
-    Name: <input type="text"><br><br>
 
-    Address: <textarea rows="2"></textarea><br><br>
+    <label>Name:</label>
+    <input type="text"><br><br>
 
-    Contact No: <input type="tel" maxlength="10"><br><br>
+    <label>Address:</label>
+    <textarea rows="2"></textarea><br><br>
 
-    Gender:
+    <label>Contact No:</label>
+    <input type="tel" maxlength="10"><br><br>
+
+    <label>Gender:</label>
     <input type="radio" name="g"> Male
     <input type="radio" name="g"> Female
     <br><br>
 
-    Preferred Season:
+    <label>Preferred Season:</label>
     <input type="checkbox"> Summer
     <input type="checkbox"> Winter
     <input type="checkbox"> Monsoon
     <br><br>
 
-    Location Type:
+    <label>Location Type:</label>
     <select>
         <option>Beach</option>
         <option>Hill Station</option>
@@ -36,6 +52,7 @@
 
     <input type="submit">
     <input type="reset">
+
 </form>
 
 </body>
