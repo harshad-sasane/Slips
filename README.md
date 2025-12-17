@@ -77,8 +77,7 @@ It is structured for **fast revision, clean backup, and easy rewriting in the pr
 
 ## Current Status
 
-- ✅ **28 slips completed**
-- ⏳ **2 slips remaining (19, 20)**
+- ✅ **31 slips completed**
 - ✅ JS practice separated properly
 - ✅ Full website project completed (Slip 18)
 - ✅ Frames, forms, tables, lists, and JS basics covered
