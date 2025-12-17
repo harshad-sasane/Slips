@@ -1,80 +1,65 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>Employee Information Form</title>
+    <title>Employee Form</title>
+
     <style>
-        body {
-            font-family: Arial;
-        }
-        .form-box {
-            width: 400px;
-            margin: auto;
-        }
-        .row {
-            margin-bottom: 10px;
-        }
         label {
+            width: 90px;
             display: inline-block;
-            width: 130px;
+        }
+
+        form {
+            width: 300px;
+            margin: auto;
         }
     </style>
 </head>
 
 <body>
 
-<h2 align="center">Employee Information Form</h2>
+    <h2 align="center">Employee Information Form</h2>
 
-<div class="form-box">
-<form>
+    <form>
 
-    <div class="row">
         <label>Name:</label>
-        <input type="text" name="name" required>
-    </div>
+        <input type="text">
+        <br><br>
 
-    <div class="row">
         <label>Address:</label>
-        <textarea name="address" required></textarea>
-    </div>
+        <textarea></textarea>
+        <br><br>
 
-    <div class="row">
-        <label>Contact No:</label>
-        <input type="tel" name="contact" maxlength="10" required>
-    </div>
+        <label>Contact:</label>
+        <input type="text">
+        <br><br>
 
-    <div class="row">
         <label>Gender:</label>
-        <input type="radio" name="gender" value="Male" required> Male
-        <input type="radio" name="gender" value="Female"> Female
-    </div>
+        <input type="radio" name="g"> Male
+        <input type="radio" name="g"> Female
+        <br><br>
 
-    <div class="row">
         <label>Department:</label>
-        <select name="department" required>
-            <option value="" disabled selected>Select</option>
-            <option>HR Department</option>
+        <select>
+            <option>Select</option>
+            <option>HR</option>
             <option>UI/UX</option>
-            <option>Development Team</option>
+            <option>Dev</option>
         </select>
-    </div>
+        <br><br>
 
-    <div class="row">
-        <label>Job Location:</label>
-        <select name="location" required>
-            <option value="" disabled selected>Select</option>
+        <label>Location:</label>
+        <select>
+            <option>Select</option>
             <option>Delhi</option>
             <option>Mumbai</option>
             <option>Bangalore</option>
         </select>
-    </div>
+        <br><br>
 
-    <div class="row" align="center">
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
-    </div>
+        <input type="submit">
+        <input type="reset">
 
-</form>
-</div>
+    </form>
 
 </body>
 </html>
