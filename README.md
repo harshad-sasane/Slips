@@ -59,8 +59,8 @@ It is structured for **fast revision, clean backup, and easy rewriting in the pr
 - ✅ [Slip 16](./slip16) – Employee Form + Cube
 - ✅ [Slip 17](./slip17) – Item Form + Area of Circle
 - ✅ [Slip 18](./slip18) – College Website (Full Website)
-- ⏳ Slip 19 – Company Website
-- ⏳ Slip 20 – Online Shopping Website
+- ✅ [Slip 19](./slip19) – Company Website
+- ✅ [Slip 20](./slip20) – Online Shopping Website
 - ✅ [Slip 21](./slip21) – Course List with Course Information
 - ✅ [Slip 22](./slip22) – Items Table + Pattern
 - ✅ [Slip 23](./slip23) – String Addition + Number Table
