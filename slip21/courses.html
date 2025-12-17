@@ -2,57 +2,46 @@
 <head>
 <title>College Courses</title>
 
-<style>
-table, td, th {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 8px;
+<script>
+function showCourse(text) {
+    document.getElementById("info").innerHTML = text;
 }
-table { width: 70%; margin: auto; }
-
-.desc div { display: none; }
-.desc div:target { display: block; }
-</style>
+</script>
 
 </head>
 <body>
 
-<table>
-  <tr>
+<table border="1" align="center" width="70%" cellpadding="8">
+<tr>
     <th colspan="2">College Name</th>
-  </tr>
+</tr>
 
-  <tr>
-    <td width="40%">
-      <h5 align="center">list of courses</h5>
-      <a href="#bca">1) BCA</a><br>
-      <a href="#bba">2) BBA</a><br>
-      <a href="#bcs">3) BCS</a><br>
-      <a href="#bsc">4) BSC</a>
-    </td>
+<tr>
+<td width="40%">
+    <b>List of Courses</b><br><br>
 
-    <td class="desc" width="60%">
-     <h5>Course Description</h5>
-         Display course information when you select a course.<br><br>
+    <a href="#" onclick="showCourse('BCA focuses on programming, databases and software development.')">
+        1) BCA
+    </a><br>
 
-<div id="bca">
-  <b>BCA:</b> Focus on programming, databases, and software development.
-</div>
+    <a href="#" onclick="showCourse('BBA covers management, marketing and business skills.')">
+        2) BBA
+    </a><br>
 
-<div id="bba">
-  <b>BBA:</b> Covers management, marketing, finance, and business skills.
-</div>
+    <a href="#" onclick="showCourse('BCS emphasizes algorithms, data structures and computer science.')">
+        3) BCS
+    </a><br>
 
-<div id="bcs">
-  <b>BCS:</b> Emphasis on algorithms, data structures, and computer science.
-</div>
+    <a href="#" onclick="showCourse('BSC is a general science course with physics, chemistry and maths.')">
+        4) BSC
+    </a>
+</td>
 
-<div id="bsc">
-  <b>BSC:</b> General science course with physics, chemistry, and mathematics.
-</div>
+<td width="60%" id="info">
+    Display course information when you select a course.
+</td>
+</tr>
 
-    </td>
-  </tr>
 </table>
 
 </body>

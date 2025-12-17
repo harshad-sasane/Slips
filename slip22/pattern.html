@@ -1,18 +1,23 @@
+<html>
 <script>
-var n = 5;
+  let totalRows = 5;   // total number of rows
 
-for (var i = 1; i <= n; i++) {
+  // loop for each row
+  for (let currentRow = 1; currentRow <= totalRows; currentRow++) {
 
-  // print spaces
-  for (var s = i; s < n; s++) {
-    document.write("&nbsp;&nbsp;");
+    // print spaces for right alignment
+    let spaceCount = totalRows - currentRow;
+    for (let s = 0; s < spaceCount; s++) {
+      document.write("&nbsp;&nbsp;");
+    }
+
+    // print stars
+    for (let star = 1; star <= currentRow; star++) {
+      document.write("* ");
+    }
+
+    // move to next line
+    document.write("<br>");
   }
-
-  // print stars
-  for (var j = 1; j <= i; j++) {
-    document.write("* ");
-  }
-
-  document.write("<br>");
-}
 </script>
+</html>
