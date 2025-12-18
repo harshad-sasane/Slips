@@ -1,18 +1,16 @@
 <html>
-<body>
+  <body>
+    <script>
+      var n = prompt("Enter a number:");
+      var ans = 1;
+      var i = 1;
 
-<script>
-  var n = prompt("Enter a number:");
-  var ans = 1;
-  var i = 1;
+      while (i <= n) {
+        ans = ans * i;
+        i++;
+      }
 
-  while (i <= n) {
-    ans = ans*i;
-    i++;
-  }
-
-  document.write("Factorial = " + ans);
-</script>
-
-</body>
+      document.write("Factorial = " + ans);
+    </script>
+  </body>
 </html>

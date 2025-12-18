@@ -1,65 +1,60 @@
 <html>
-<head>
+  <head>
     <title>Employee Form</title>
 
     <style>
-        label {
-            width: 90px;
-            display: inline-block;
-        }
+      label {
+        width: 90px;
+        display: inline-block;
+      }
 
-        form {
-            width: 300px;
-            margin: auto;
-        }
+      form {
+        width: 300px;
+        margin: auto;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <h2 align="center">Employee Information Form</h2>
 
     <form>
+      <label>Name:</label>
+      <input type="text" />
+      <br /><br />
 
-        <label>Name:</label>
-        <input type="text">
-        <br><br>
+      <label>Address:</label>
+      <textarea></textarea>
+      <br /><br />
 
-        <label>Address:</label>
-        <textarea></textarea>
-        <br><br>
+      <label>Contact:</label>
+      <input type="text" />
+      <br /><br />
 
-        <label>Contact:</label>
-        <input type="text">
-        <br><br>
+      <label>Gender:</label>
+      <input type="radio" name="g" /> Male
+      <input type="radio" name="g" /> Female <br /><br />
 
-        <label>Gender:</label>
-        <input type="radio" name="g"> Male
-        <input type="radio" name="g"> Female
-        <br><br>
+      <label>Department:</label>
+      <select>
+        <option>Select</option>
+        <option>HR</option>
+        <option>UI/UX</option>
+        <option>Dev</option>
+      </select>
+      <br /><br />
 
-        <label>Department:</label>
-        <select>
-            <option>Select</option>
-            <option>HR</option>
-            <option>UI/UX</option>
-            <option>Dev</option>
-        </select>
-        <br><br>
+      <label>Location:</label>
+      <select>
+        <option>Select</option>
+        <option>Delhi</option>
+        <option>Mumbai</option>
+        <option>Bangalore</option>
+      </select>
+      <br /><br />
 
-        <label>Location:</label>
-        <select>
-            <option>Select</option>
-            <option>Delhi</option>
-            <option>Mumbai</option>
-            <option>Bangalore</option>
-        </select>
-        <br><br>
-
-        <input type="submit">
-        <input type="reset">
-
+      <input type="submit" />
+      <input type="reset" />
     </form>
-
-</body>
+  </body>
 </html>

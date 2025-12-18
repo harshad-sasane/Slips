@@ -1,28 +1,27 @@
 <html>
-<script>
-  let totalRows = 4;      // total number of rows to print
-  let letter = "A";       // starting alphabet
+  <script>
+    let totalRows = 4; // total number of rows to print
+    let letter = "A"; // starting alphabet
 
-  // loop for each row
-  for (let currentRow = 0; currentRow < totalRows; currentRow++) {
+    // loop for each row
+    for (let currentRow = 0; currentRow < totalRows; currentRow++) {
+      // calculate how many spaces are needed
+      let spaceCount = totalRows - currentRow - 1;
+      for (let s = 0; s < spaceCount; s++) {
+        document.write("&nbsp;&nbsp;");
+      }
 
-    // calculate how many spaces are needed
-    let spaceCount = totalRows - currentRow - 1;
-    for (let s = 0; s < spaceCount; s++) {
-      document.write("&nbsp;&nbsp;");
+      // print alphabets in the row
+      for (let col = 0; col <= currentRow; col++) {
+        document.write(letter + "&nbsp;&nbsp;");
+
+        // move to next alphabet
+        let ascii = letter.charCodeAt(0);
+        letter = String.fromCharCode(ascii + 1);
+      }
+
+      // move to next line
+      document.write("<br>");
     }
-
-    // print alphabets in the row
-    for (let col = 0; col <= currentRow; col++) {
-      document.write(letter + "&nbsp;&nbsp;");
-
-      // move to next alphabet
-      let ascii = letter.charCodeAt(0);
-      letter = String.fromCharCode(ascii + 1);
-    }
-
-    // move to next line
-    document.write("<br>");
-  }
-</script>
+  </script>
 </html>

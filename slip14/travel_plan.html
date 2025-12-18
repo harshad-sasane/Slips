@@ -1,59 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Travel Plan Form</title>
 
     <style>
-        label {
-            display: inline-block;
-            width: 120px;
-        }
-        form {
-            width: 350px;
-            margin: auto;
-        }
+      label {
+        display: inline-block;
+        width: 120px;
+      }
+      form {
+        width: 350px;
+        margin: auto;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
+    <h3 align="center">Travel Plan Form</h3>
 
-<h3 align="center">Travel Plan Form</h3>
+    <form>
+      <label>Name:</label>
+      <input type="text" /><br /><br />
 
-<form>
+      <label>Address:</label>
+      <textarea rows="2"></textarea><br /><br />
 
-    <label>Name:</label>
-    <input type="text"><br><br>
+      <label>Contact No:</label>
+      <input type="tel" maxlength="10" /><br /><br />
 
-    <label>Address:</label>
-    <textarea rows="2"></textarea><br><br>
+      <label>Gender:</label>
+      <input type="radio" name="g" /> Male
+      <input type="radio" name="g" /> Female <br /><br />
 
-    <label>Contact No:</label>
-    <input type="tel" maxlength="10"><br><br>
+      <label>Preferred Season:</label>
+      <input type="checkbox" /> Summer <input type="checkbox" /> Winter
+      <input type="checkbox" /> Monsoon <br /><br />
 
-    <label>Gender:</label>
-    <input type="radio" name="g"> Male
-    <input type="radio" name="g"> Female
-    <br><br>
-
-    <label>Preferred Season:</label>
-    <input type="checkbox"> Summer
-    <input type="checkbox"> Winter
-    <input type="checkbox"> Monsoon
-    <br><br>
-
-    <label>Location Type:</label>
-    <select>
+      <label>Location Type:</label>
+      <select>
         <option>Beach</option>
         <option>Hill Station</option>
         <option>Historical</option>
         <option>Adventure</option>
-    </select>
-    <br><br>
+      </select>
+      <br /><br />
 
-    <input type="submit">
-    <input type="reset">
-
-</form>
-
-</body>
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </body>
 </html>

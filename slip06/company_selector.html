@@ -1,41 +1,42 @@
 <html>
-<head>
+  <head>
     <title>Company Information</title>
 
     <script>
-        function showInfo(text) {
-            document.getElementById("info").innerHTML = text;
-        }
+      function showInfo(text) {
+        document.getElementById("info").innerHTML = text;
+      }
     </script>
-</head>
+  </head>
 
-<body>
-
-<table border="1" width="80%" align="center" cellpadding="10">
-
-    <tr>
+  <body>
+    <table border="1" width="80%" align="center" cellpadding="10">
+      <tr>
         <th colspan="2">Company Information & logo</th>
-    </tr>
+      </tr>
 
-    <tr>
-      
+      <tr>
         <td width="40%">
-          
-            <b>List Of Company</b><br><br>
+          <b>List Of Company</b><br /><br />
 
-            <a href="#" onclick="showInfo('TCS is an IT company.')">1) TCS</a><br>
-            <a href="#" onclick="showInfo('Wipro is an IT services company.')">2) Wipro</a><br>
-            <a href="#" onclick="showInfo('Infosys is a software company.')">3) Infosys</a><br>
-            <a href="#" onclick="showInfo('LNT is an engineering company.')">4) LNT</a>
+          <a href="#" onclick="showInfo('TCS is an IT company.')">1) TCS</a
+          ><br />
+          <a href="#" onclick="showInfo('Wipro is an IT services company.')"
+            >2) Wipro</a
+          ><br />
+          <a href="#" onclick="showInfo('Infosys is a software company.')"
+            >3) Infosys</a
+          ><br />
+          <a href="#" onclick="showInfo('LNT is an engineering company.')"
+            >4) LNT</a
+          >
         </td>
 
         <td width="60%" id="info">
-            <b>Course Description</b><br><br>
-            Display Company information when you select that company
+          <b>Course Description</b><br /><br />
+          Display Company information when you select that company
         </td>
-    </tr>
-
-</table>
-
-</body>
+      </tr>
+    </table>
+  </body>
 </html>

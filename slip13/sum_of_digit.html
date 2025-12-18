@@ -1,21 +1,20 @@
 <html>
-<body>
-<script>
-  function sumDigits(n) {
-    var sum = 0;
+  <body>
+    <script>
+      function sumDigits(n) {
+        var sum = 0;
 
-    while (n > 0) {
-      sum = sum + (n % 10);   // get last digit
-      n = Math.floor(n / 10); // remove last digit
-    }
+        while (n > 0) {
+          sum = sum + (n % 10); // get last digit
+          n = Math.floor(n / 10); // remove last digit
+        }
 
-    return sum;
-  }
+        return sum;
+      }
 
-  var num = Number(prompt("Enter a number:"));
-  var result = sumDigits(num);
-  document.write("Sum of digits = " + result);
-</script>
-
+      var num = Number(prompt("Enter a number:"));
+      var result = sumDigits(num);
+      document.write("Sum of digits = " + result);
+    </script>
   </body>
 </html>

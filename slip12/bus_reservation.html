@@ -1,72 +1,67 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Bus Ticket Reservation</title>
 
     <style>
-        label {
-            display: inline-block;
-            width: 140px;
-        }
-        form {
-            width: 420px;
-            margin: auto;
-        }
+      label {
+        display: inline-block;
+        width: 140px;
+      }
+      form {
+        width: 420px;
+        margin: auto;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <h3 align="center">Bus Ticket Reservation Form</h3>
 
     <form>
+      <label>Name:</label>
+      <input type="text" /><br /><br />
 
-        <label>Name:</label>
-        <input type="text"><br><br>
+      <label>Address:</label>
+      <textarea rows="2"></textarea><br /><br />
 
-        <label>Address:</label>
-        <textarea rows="2"></textarea><br><br>
+      <label>Contact No:</label>
+      <input type="text" maxlength="10" /><br /><br />
 
-        <label>Contact No:</label>
-        <input type="text" maxlength="10"><br><br>
+      <label>Source Station:</label>
+      <select>
+        <option>Mumbai</option>
+        <option>Pune</option>
+        <option>Nashik</option>
+        <option>Delhi</option></select
+      ><br /><br />
 
-        <label>Source Station:</label>
-        <select>
-            <option>Mumbai</option>
-            <option>Pune</option>
-            <option>Nashik</option>
-            <option>Delhi</option>
-        </select><br><br>
+      <label>Destination Station:</label>
+      <select>
+        <option>Mumbai</option>
+        <option>Pune</option>
+        <option>Nashik</option>
+        <option>Delhi</option></select
+      ><br /><br />
 
-        <label>Destination Station:</label>
-        <select>
-            <option>Mumbai</option>
-            <option>Pune</option>
-            <option>Nashik</option>
-            <option>Delhi</option>
-        </select><br><br>
+      <label>Date of Booking:</label>
+      <input type="date" /><br /><br />
 
-        <label>Date of Booking:</label>
-        <input type="date"><br><br>
+      <label>Date of Journey:</label>
+      <input type="date" /><br /><br />
 
-        <label>Date of Journey:</label>
-        <input type="date"><br><br>
+      <label>No of Passengers:</label>
+      <input type="number" /><br /><br />
 
-        <label>No of Passengers:</label>
-        <input type="number"><br><br>
+      <label>Passenger Name:</label>
+      <input type="text" /><br /><br />
 
-        <label>Passenger Name:</label>
-        <input type="text"><br><br>
+      <label>Gender:</label>
+      <input type="radio" name="g" /> Male
+      <input type="radio" name="g" /> Female <br /><br />
 
-        <label>Gender:</label>
-        <input type="radio" name="g"> Male
-        <input type="radio" name="g"> Female
-        <br><br>
-
-        <input type="submit">
-        <input type="reset">
-
+      <input type="submit" />
+      <input type="reset" />
     </form>
-
-</body>
+  </body>
 </html>

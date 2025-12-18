@@ -1,3 +1,15 @@
-.x { color: navy;   font-size: 20px; font-family: Arial; }
-.y { color: green;  font-size: 16px; font-family: Verdana; }
-.z { color: maroon; font-size: 14px; font-family: Courier; }
+.x {
+  color: navy;
+  font-size: 20px;
+  font-family: Arial;
+}
+.y {
+  color: green;
+  font-size: 16px;
+  font-family: Verdana;
+}
+.z {
+  color: maroon;
+  font-size: 14px;
+  font-family: Courier;
+}
