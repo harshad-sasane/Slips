@@ -1,94 +1,52 @@
-# BCA HTML Practical Slips – Personal Repository
+# BCA HTML Practical Slips
 
-This repository is my **personal, exam-oriented storage** for all **BCA (Sem-1) HTML & Web Designing practical slips**.
-
-It is structured for **fast revision, clean backup, and easy rewriting in the practical exam**.
-
----
-
-## Coding Style (Exam-Oriented)
-
-- Short, compact code for easy writing on paper  
-- `<marquee>` and `<font>` used because slips explicitly require them  
-- `<head>` sometimes omitted as per teacher’s instruction  
-- Focus is on correct output as per slip, not modern standards  
-- Priority order: **Exam Output > Validation > Best Practices**
-
----
-
-## JavaScript Policy
-
-- General JS practice kept in `js_assi/`
-- Slip-wise JS added only after it is taught in class
-- Until then, HTML-only solutions are treated as valid
-
----
+![BCA Sem-1](https://img.shields.io/badge/BCA-Sem%201-blue)
+![HTML](https://img.shields.io/badge/HTML-Practical-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ## Quick Index
 
 ### JavaScript Assignments
 
 - [js_assi](./js_assi)
-  - [age_checker](./js_assi/age_checker/index.html)
-  - [alphabet_display](./js_assi/alphabet_display/index.html)
-  - [arithmetic_op](./js_assi/arithmetic_op/index.html)
-  - [comparison_op](./js_assi/comparison_op/comparison_op.html)
-  - [factorial](./js_assi/factorial/index.html)
-  - [first_10_num](./js_assi/first_10_num/index.html)
-  - [marks_grade](./js_assi/marks_grade/index.html)
+  - [Age Checker](./js_assi/age_checker/index.html)
+  - [Alphabet Display](./js_assi/alphabet_display/index.html)
+  - [Arithmetic Operations](./js_assi/arithmetic_op/index.html)
+  - [Comparison Operations](./js_assi/comparison_op/comparison_op.html)
+  - [Factorial](./js_assi/factorial/index.html)
+  - [First 10 Numbers](./js_assi/first_10_num/index.html)
+  - [Marks & Grade](./js_assi/marks_grade/index.html)
 
----
+### HTML Practical Slips
 
-## HTML Practical Slips (Simple Index)
-
-- ✅ [Slip 01](./slip01) – College Web Page
-- ✅ [Slip 02](./slip02) – Personal Profile Page
-- ✅ [Slip 03](./slip03) – Course List + Square & Cube
-- ✅ [Slip 04](./slip04) – Plants & Fruits (External CSS)
-- ✅ [Slip 05](./slip05) – Country–Population + Sum of 10 Numbers
-- ✅ [Slip 06](./slip06) – Company Information Selector
-- ✅ [Slip 07](./slip07) – Six-Frame Layout (Info, Lists, Marquee, Blink)
-- ✅ [Slip 08](./slip08) – Book Table + Factors
-- ✅ [Slip 09](./slip09) – Course Navigation Frames + Factorial
-- ✅ [Slip 10](./slip10) – Population Table + Prime Numbers
-- ✅ [Slip 11](./slip11) – Student Intake Table + Pattern
-- ✅ [Slip 12](./slip12) – Bus Ticket Reservation Form
-- ✅ [Slip 13](./slip13) – String Length + Sum of Digits
-- ✅ [Slip 14](./slip14) – Travel Plan Booking Form
-- ✅ [Slip 15](./slip15) – Employee Form + Cube
-- ✅ [Slip 16](./slip16) – Employee Form + Cube
-- ✅ [Slip 17](./slip17) – Item Form + Area of Circle
-- ✅ [Slip 18](./slip18) – College Website (Full Website)
-- ✅ [Slip 19](./slip19) – Company Website
-- ✅ [Slip 20](./slip20) – Online Shopping Website
-- ✅ [Slip 21](./slip21) – Course List with Course Information
-- ✅ [Slip 22](./slip22) – Items Table + Pattern
-- ✅ [Slip 23](./slip23) – String Addition + Number Table
-- ✅ [Slip 24](./slip24) – Subject Sub-List + Factorial
-- ✅ [Slip 25](./slip25) – Three Image Frames
-- ✅ [Slip 26](./slip26) – Three List Frames + Even/Odd
-- ✅ [Slip 27](./slip27) – Employee Department + Prime Check
-- ✅ [Slip 28](./slip28) – Head Count Table + Armstrong Number
-- ✅ [Slip 29](./slip29) – Department Gender Table + Prime
-- ✅ [Slip 30](./slip30) – Employee Salary Table + Divisible by 5
-- ✅ [Slip 31](./slip31) – College Info Page + Multiplication Table
-
----
-
-## Current Status
-
-- ✅ **31 slips completed**
-- ✅ JS practice separated properly
-- ✅ Full website project completed (Slip 18)
-- ✅ Frames, forms, tables, lists, and JS basics covered
-
----
-
-## Note
-
-This repo is optimized for:
-- Practical exam performance  
-- Fast revision  
-- Clean backup  
-
-It is a **student workspace**, not a production-ready web project.
+- [Slip 01 – College Web Page](./slip01)
+- [Slip 02 – Personal Profile Page](./slip02)
+- [Slip 03 – Course List + Square & Cube](./slip03)
+- [Slip 04 – Plants & Fruits (External CSS)](./slip04)
+- [Slip 05 – Country–Population + Sum of Numbers](./slip05)
+- [Slip 06 – Company Information Selector](./slip06)
+- [Slip 07 – Six-Frame Layout](./slip07)
+- [Slip 08 – Book Table + Factors](./slip08)
+- [Slip 09 – Course Frames + Factorial](./slip09)
+- [Slip 10 – Population Table + Prime Numbers](./slip10)
+- [Slip 11 – Student Intake + Pattern](./slip11)
+- [Slip 12 – Bus Ticket Reservation Form](./slip12)
+- [Slip 13 – String Length + Sum of Digits](./slip13)
+- [Slip 14 – Travel Plan Booking Form](./slip14)
+- [Slip 15 – Employee Form + Cube](./slip15)
+- [Slip 16 – Employee Form + Cube](./slip16)
+- [Slip 17 – Item Form + Area of Circle](./slip17)
+- [Slip 18 – College Website](./slip18)
+- [Slip 19 – Company Website](./slip19)
+- [Slip 20 – Online Shopping Website](./slip20)
+- [Slip 21 – Course List with Info](./slip21)
+- [Slip 22 – Items Table + Pattern](./slip22)
+- [Slip 23 – String Addition + Number Table](./slip23)
+- [Slip 24 – Subject Sub-List + Factorial](./slip24)
+- [Slip 25 – Three Image Frames](./slip25)
+- [Slip 26 – Three List Frames + Even/Odd](./slip26)
+- [Slip 27 – Employee Department + Prime](./slip27)
+- [Slip 28 – Head Count + Armstrong Number](./slip28)
+- [Slip 29 – Department Gender Table + Prime](./slip29)
+- [Slip 30 – Employee Salary + Divisible by 5](./slip30)
+- [Slip 31 – College Info + Multiplication Table](./slip31)
