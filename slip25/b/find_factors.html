@@ -1,0 +1,15 @@
+<html>
+<script>
+function factors(n) {
+    for (var i = 1; i <= n; i++) {
+        if (n % i == 0) {
+            document.write(i + " ");
+        }
+    }
+}
+
+var num = prompt("Enter a number:");
+document.write("Factors of " + num + " are: <br>");
+factors(Number(num));
+</script>
+</html>
