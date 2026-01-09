@@ -1,3 +1,6 @@
+![Repo Views](https://visitor-badge.laobi.icu/badge?page_id=harshad-sasane.Slips)
+
+
 # BCA HTML Practical Slips
 
 ![BCA Sem-1](https://img.shields.io/badge/BCA-Sem%201-blue)
